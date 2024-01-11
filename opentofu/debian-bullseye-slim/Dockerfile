@@ -14,7 +14,7 @@ LABEL maintainer="florianv@sakurasky.com" \
     org.label-schema.url="https://github.com/sakura-sky/docker-opentofu" \
     org.label-schema.vcs-url="https://github.com/sakura-sky/docker-opentofu" \
     org.label-schema.vendor="Sakura Sky" \
-    org.label-schema.docker.cmd="docker run --rm -it sakurasky/opentofu:1.6.0-rc1-bullseye-slim"
+    org.label-schema.docker.cmd="docker run --rm -it sakurasky/opentofu:1.6.0-bullseye-slim"
 
 RUN DEBIAN_FRONTEND=noninteractive && \
     apt update && \
@@ -23,7 +23,7 @@ RUN DEBIAN_FRONTEND=noninteractive && \
     bash /tmp/tofu-repository-setup.sh && \
     rm /tmp/tofu-repository-setup.sh
 
-RUN apt-get install -y tofu="${OPENTOFU_VERSION/-/'~'}" && \
+RUN apt-get install -y tofu=${OPENTOFU_VERSION} && \
     apt-get clean
 
 RUN mkdir /tofu && \

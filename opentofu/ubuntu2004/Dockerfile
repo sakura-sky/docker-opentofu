@@ -14,7 +14,7 @@ LABEL maintainer="florianv@sakurasky.com" \
     org.label-schema.url="https://github.com/sakura-sky/docker-opentofu" \
     org.label-schema.vcs-url="https://github.com/sakura-sky/docker-opentofu" \
     org.label-schema.vendor="Sakura Sky" \
-    org.label-schema.docker.cmd="docker run --rm -it sakurasky/opentofu:1.6.0-rc1-ubuntu-2004"
+    org.label-schema.docker.cmd="docker run --rm -it sakurasky/opentofu:1.6.0-ubuntu-2004"
 
 RUN DEBIAN_FRONTEND=noninteractive && \
     apt update && \

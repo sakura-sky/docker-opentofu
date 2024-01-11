@@ -1,3 +1,7 @@
+# 2.0 (10 Jan, 2023)
+
+* Added opentofu 1.6.0 stable
+
 # 1.2 (2 Jan, 2023)
 
 * Added opentofu rc1
