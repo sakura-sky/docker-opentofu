@@ -11,32 +11,33 @@ More about opentofu: https://github.com/opentofu/opentofu
 
 Latest Opentofu version: 
 
-* Opentofu 1.6.0
+* Opentofu 1.6.1
 
 > Starting from version 1.6.0 and its official stable release in December 2023, minor releases will automatically be pushed and not published as new docker tags.
 
-### Opentofu (1.6.0)
+### Opentofu (1.6.1)
 
 This includes `opentofu` on different base images.
 
-| Base Image (↓) \ Ansible Version (→) | Dockerfile                                                                                                        | 1.6.0                        |
+| Base Image (↓) \ Ansible Version (→) | Dockerfile                                                                                                        | 1.6.1                        |
 |--------------------------------------|-------------------------------------------------------------------------------------------------------------------|-------------------------------------|
-| Latest                               | [Dockerfile](https://github.com/sakura-sky/docker-opentofu/blob/main/opentofu/alpine318/Dockerfile)            | `latest`                            |
-| Alpine                               | [Dockerfile](https://github.com/sakura-sky/docker-opentofu/blob/main/opentofu/alpine318/Dockerfile)            | `alpine`                            |
+| Latest                               | [Dockerfile](https://github.com/sakura-sky/docker-opentofu/blob/main/opentofu/alpine319/Dockerfile)            | `latest`                            |
+| Alpine                               | [Dockerfile](https://github.com/sakura-sky/docker-opentofu/blob/main/opentofu/alpine319/Dockerfile)            | `alpine`                            |
 | Debian                               | [Dockerfile](https://github.com/sakura-sky/docker-opentofu/blob/main/opentofu/debian-bookworm-slim/Dockerfile) | `debian`                            |
 | Rockylinux                           | [Dockerfile](https://github.com/sakura-sky/docker-opentofu/blob/main/opentofu/rocky9/Dockerfile)               | `rockylinux`                        |
 | Ubuntu                               | [Dockerfile](https://github.com/sakura-sky/docker-opentofu/blob/main/opentofu/ubuntu2204/Dockerfile)           | `ubuntu`                            |
-| Alpine 3.16                          | [Dockerfile](https://github.com/sakura-sky/docker-opentofu/blob/main/opentofu/alpine316/Dockerfile)            | `1.6.0-alpine-3.16`          |
-| Alpine 3.17                          | [Dockerfile](https://github.com/sakura-sky/docker-opentofu/blob/main/opentofu/alpine317/Dockerfile)            | `1.6.0-alpine-3.17`          |
-| Alpine 3.18                          | [Dockerfile](https://github.com/sakura-sky/docker-opentofu/blob/main/opentofu/alpine318/Dockerfile)            | `1.6.0-alpine-3.18`          |
-| Bookworm (Debian 12)                 | [Dockerfile](https://github.com/sakura-sky/docker-opentofu/blob/main/opentofu/debian-bookworm/Dockerfile)      | `1.6.0-debian-bookworm`      |
-| Bookworm Slim (Debian 12)            | [Dockerfile](https://github.com/sakura-sky/docker-opentofu/blob/main/opentofu/debian-bookworm-slim/Dockerfile) | `1.6.0-debian-bookworm-slim` |
-| Bullseye (Debian 11)                 | [Dockerfile](https://github.com/sakura-sky/docker-opentofu/blob/main/opentofu/debian-bullseye/Dockerfile)      | `1.6.0-debian-bullseye`      |
-| Bullseye Slim (Debian 11)            | [Dockerfile](https://github.com/sakura-sky/docker-opentofu/blob/main/opentofu/debian-bullseye-slim/Dockerfile) | `1.6.0-debian-bullseye-slim` |
-| Rocky Linux 8                        | [Dockerfile](https://github.com/sakura-sky/docker-opentofu/blob/main/opentofu/rocky8/Dockerfile)               | `1.6.0-rockylinux-8`         |
-| Rocky Linux 9                        | [Dockerfile](https://github.com/sakura-sky/docker-opentofu/blob/main/opentofu/rocky9/Dockerfile)               | `1.6.0-rockylinux-9`         |
-| Ubuntu 20.04                         | [Dockerfile](https://github.com/sakura-sky/docker-opentofu/blob/main/opentofu/ubuntu2004/Dockerfile)           | `1.6.0-ubuntu-20.04`         |
-| Ubuntu 22.04                         | [Dockerfile](https://github.com/sakura-sky/docker-opentofu/blob/main/opentofu/ubuntu2204/Dockerfile)           | `1.6.0-ubuntu-22.04`         |
+| Alpine 3.16                          | [Dockerfile](https://github.com/sakura-sky/docker-opentofu/blob/main/opentofu/alpine316/Dockerfile)            | `1.6.1-alpine-3.16`          |
+| Alpine 3.17                          | [Dockerfile](https://github.com/sakura-sky/docker-opentofu/blob/main/opentofu/alpine317/Dockerfile)            | `1.6.1-alpine-3.17`          |
+| Alpine 3.18                          | [Dockerfile](https://github.com/sakura-sky/docker-opentofu/blob/main/opentofu/alpine318/Dockerfile)            | `1.6.1-alpine-3.18`          |
+| Alpine 3.18                          | [Dockerfile](https://github.com/sakura-sky/docker-opentofu/blob/main/opentofu/alpine319/Dockerfile)            | `1.6.1-alpine-3.19`          |
+| Bookworm (Debian 12)                 | [Dockerfile](https://github.com/sakura-sky/docker-opentofu/blob/main/opentofu/debian-bookworm/Dockerfile)      | `1.6.1-debian-bookworm`      |
+| Bookworm Slim (Debian 12)            | [Dockerfile](https://github.com/sakura-sky/docker-opentofu/blob/main/opentofu/debian-bookworm-slim/Dockerfile) | `1.6.1-debian-bookworm-slim` |
+| Bullseye (Debian 11)                 | [Dockerfile](https://github.com/sakura-sky/docker-opentofu/blob/main/opentofu/debian-bullseye/Dockerfile)      | `1.6.1-debian-bullseye`      |
+| Bullseye Slim (Debian 11)            | [Dockerfile](https://github.com/sakura-sky/docker-opentofu/blob/main/opentofu/debian-bullseye-slim/Dockerfile) | `1.6.1-debian-bullseye-slim` |
+| Rocky Linux 8                        | [Dockerfile](https://github.com/sakura-sky/docker-opentofu/blob/main/opentofu/rocky8/Dockerfile)               | `1.6.1-rockylinux-8`         |
+| Rocky Linux 9                        | [Dockerfile](https://github.com/sakura-sky/docker-opentofu/blob/main/opentofu/rocky9/Dockerfile)               | `1.6.1-rockylinux-9`         |
+| Ubuntu 20.04                         | [Dockerfile](https://github.com/sakura-sky/docker-opentofu/blob/main/opentofu/ubuntu2004/Dockerfile)           | `1.6.1-ubuntu-20.04`         |
+| Ubuntu 22.04                         | [Dockerfile](https://github.com/sakura-sky/docker-opentofu/blob/main/opentofu/ubuntu2204/Dockerfile)           | `1.6.1-ubuntu-22.04`         |
 
 
 # Usage

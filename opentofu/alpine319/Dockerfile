@@ -1,4 +1,4 @@
-FROM rockylinux:8
+FROM alpine:3.19
 
 # Args
 ARG OPENTOFU_VERSION
@@ -13,14 +13,13 @@ LABEL maintainer="florianv@sakurasky.com" \
     org.label-schema.url="https://github.com/sakura-sky/docker-opentofu" \
     org.label-schema.vcs-url="https://github.com/sakura-sky/docker-opentofu" \
     org.label-schema.vendor="Sakura Sky" \
-    org.label-schema.docker.cmd="docker run --rm -it sakurasky/opentofu:1.6.1-rockylinux-8"
+    org.label-schema.docker.cmd="docker run --rm -it sakurasky/opentofu:1.6.1-alpine-3.19"
 
-RUN curl https://packagecloud.io/install/repositories/opentofu/tofu/script.rpm.sh?any=true -o /tmp/tofu-repository-setup.sh && \
-    bash /tmp/tofu-repository-setup.sh && \
-    rm /tmp/tofu-repository-setup.sh
-
-RUN yum install -y tofu-"${OPENTOFU_VERSION/-/'~'}" && \
-    yum clean all
+RUN apk add opentofu --repository=https://dl-cdn.alpinelinux.org/alpine/edge/testing/ && \
+    apk add wget && \
+    wget https://github.com/opentofu/opentofu/releases/download/v${OPENTOFU_VERSION}/tofu_${OPENTOFU_VERSION}_amd64.apk && apk add --allow-untrusted --force-overwrite tofu_${OPENTOFU_VERSION}_amd64.apk && \
+    apk del wget && \
+    rm -rf /var/cache/apk/*
 
 RUN mkdir /tofu && \
     mkdir -p /etc/tofu && \

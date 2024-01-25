@@ -1,4 +1,9 @@
-# 2.0 (10 Jan, 2023)
+# 2.1 (24 jan, 2024)
+
+* Added alpine 3.19
+* Added opentofu 1.6.1
+
+# 2.0 (10 Jan, 2024)
 
 * Added opentofu 1.6.0 stable
 
