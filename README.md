@@ -29,7 +29,7 @@ This includes `opentofu` on different base images.
 | Alpine 3.16                          | [Dockerfile](https://github.com/sakura-sky/docker-opentofu/blob/main/opentofu/alpine316/Dockerfile)            | `1.6.1-alpine-3.16`          |
 | Alpine 3.17                          | [Dockerfile](https://github.com/sakura-sky/docker-opentofu/blob/main/opentofu/alpine317/Dockerfile)            | `1.6.1-alpine-3.17`          |
 | Alpine 3.18                          | [Dockerfile](https://github.com/sakura-sky/docker-opentofu/blob/main/opentofu/alpine318/Dockerfile)            | `1.6.1-alpine-3.18`          |
-| Alpine 3.18                          | [Dockerfile](https://github.com/sakura-sky/docker-opentofu/blob/main/opentofu/alpine319/Dockerfile)            | `1.6.1-alpine-3.19`          |
+| Alpine 3.19                          | [Dockerfile](https://github.com/sakura-sky/docker-opentofu/blob/main/opentofu/alpine319/Dockerfile)            | `1.6.1-alpine-3.19`          |
 | Bookworm (Debian 12)                 | [Dockerfile](https://github.com/sakura-sky/docker-opentofu/blob/main/opentofu/debian-bookworm/Dockerfile)      | `1.6.1-debian-bookworm`      |
 | Bookworm Slim (Debian 12)            | [Dockerfile](https://github.com/sakura-sky/docker-opentofu/blob/main/opentofu/debian-bookworm-slim/Dockerfile) | `1.6.1-debian-bookworm-slim` |
 | Bullseye (Debian 11)                 | [Dockerfile](https://github.com/sakura-sky/docker-opentofu/blob/main/opentofu/debian-bullseye/Dockerfile)      | `1.6.1-debian-bullseye`      |
