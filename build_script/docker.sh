@@ -5,7 +5,7 @@ set -eEuoa pipefail
 
 
 export ROOT_PATH=$PWD
-export OPENTOFU_VERSION=1.6.1
+export OPENTOFU_VERSION=1.6.2
 
 
 docker buildx build --push --platform linux/amd64,linux/arm64 -t "sakurasky/opentofu:$OPENTOFU_VERSION-alpine-3.16" --build-arg OPENTOFU_VERSION=$OPENTOFU_VERSION opentofu/alpine316 -q

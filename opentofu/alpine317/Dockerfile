@@ -13,7 +13,7 @@ LABEL maintainer="florianv@sakurasky.com" \
     org.label-schema.url="https://github.com/sakura-sky/docker-opentofu" \
     org.label-schema.vcs-url="https://github.com/sakura-sky/docker-opentofu" \
     org.label-schema.vendor="Sakura Sky" \
-    org.label-schema.docker.cmd="docker run --rm -it sakurasky/opentofu:1.6.1-alpine-3.17"
+    org.label-schema.docker.cmd="docker run --rm -it sakurasky/opentofu:1.6.2-alpine-3.17"
 
 RUN apk add opentofu --repository=https://dl-cdn.alpinelinux.org/alpine/edge/testing/ && \
     apk add wget && \

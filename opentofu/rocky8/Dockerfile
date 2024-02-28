@@ -13,7 +13,7 @@ LABEL maintainer="florianv@sakurasky.com" \
     org.label-schema.url="https://github.com/sakura-sky/docker-opentofu" \
     org.label-schema.vcs-url="https://github.com/sakura-sky/docker-opentofu" \
     org.label-schema.vendor="Sakura Sky" \
-    org.label-schema.docker.cmd="docker run --rm -it sakurasky/opentofu:1.6.1-rockylinux-8"
+    org.label-schema.docker.cmd="docker run --rm -it sakurasky/opentofu:1.6.2-rockylinux-8"
 
 RUN curl https://packagecloud.io/install/repositories/opentofu/tofu/script.rpm.sh?any=true -o /tmp/tofu-repository-setup.sh && \
     bash /tmp/tofu-repository-setup.sh && \
